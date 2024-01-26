@@ -7,7 +7,7 @@ internal class Program
     private const string NativeLibraryWindows = "../rust_dll_demo/target/release/DllDemo.dll";
     private const string NativeLibraryMacos = "../rust_dll_demo/target/release/libDllDemo.dylib";
 
-    private const string NativeLibrary = NativeLibraryMacos;
+    private const string NativeLibrary = NativeLibraryWindows;
 
     [DllImport(NativeLibrary)]
     private static extern int fireman_add(int a, int b);
