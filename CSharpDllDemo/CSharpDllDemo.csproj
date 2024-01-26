@@ -7,14 +7,6 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-        <DefineConstants>TRACE;MACOS</DefineConstants>
-    </PropertyGroup>
-
-    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-        <DefineConstants>TRACE;MACOS</DefineConstants>
-    </PropertyGroup>
-
     <ItemGroup>
         <Folder Include="Library\"/>
     </ItemGroup>
